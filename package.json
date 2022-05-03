@@ -4,10 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "config": {
-		"port": 3000
-	},
+    "port": 3000
+  },
   "scripts": {
-    "dev": "node ./src/server.js $npm_package_config_port",
+    "start": "node ./src/server.js $npm_package_config_port",
     "local": "lt --port $npm_package_config_port"
   },
   "devDependencies": {
