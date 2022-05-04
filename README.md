@@ -32,11 +32,7 @@ yarn test
 ## Other
 
 こちらのプロジェクトでは、[gooラボAPI](https://labs.goo.ne.jp/api/jp/hiragana-translation/)を使用しています。
-
-<a href="http://www.goo.ne.jp/">
-<img src="//u.xgoo.jp/img/sgoo.png" alt="supported by goo"
-title="supported by goo">
-</a>
+![supported by goo](https://u.xgoo.jp/img/sgoo.png)
 
 
 ## Show your support
