@@ -1,6 +1,4 @@
-<h1 align="center">Welcome to babi 👋</h1>
-> 日本語の文字をバビ語にしてメッセージを返すLine Botサンプル
-
+<h1 align="center">日本語の文字をバビ語にしてメッセージを返すLine Botサンプル💬</h1>
 <p>
   <a href="https://www.npmjs.com/package/babi" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/babi.svg">
