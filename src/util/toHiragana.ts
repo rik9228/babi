@@ -1,5 +1,5 @@
 import "dotenv/config";
-import axios, { AxiosPromise, AxiosResponse } from "axios";
+import axios, { AxiosResponse } from "axios";
 
 type hiraganaResponse = {
   converted: string;
