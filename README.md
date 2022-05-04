@@ -1,12 +1,4 @@
 <h1 align="center">日本語の文字をバビ語にしてメッセージを返すLine Botサンプル💬</h1>
-<p>
-  <a href="https://www.npmjs.com/package/babi" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/babi.svg">
-  </a>
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
-</p>
 
 ## Install
 
