@@ -1,1 +1,0 @@
-{"version":3,"file":"toHiragana.d.ts","sourceRoot":"","sources":["../../src/util/toHiragana.ts"],"names":[],"mappings":"AAAA,OAAO,eAAe,CAAC;AACvB,OAAc,EAAgB,aAAa,EAAE,MAAM,OAAO,CAAC;AAE3D,aAAK,gBAAgB,GAAG;IACtB,SAAS,EAAE,MAAM,CAAC;IAClB,WAAW,EAAE,MAAM,CAAC;IACpB,UAAU,EAAE,MAAM,CAAC;CACpB,CAAC;AAMF,eAAO,MAAM,UAAU,cACV,MAAM,KAChB,QAAQ,cAAc,gBAAgB,CAAC,GAAG,SAAS,CAWrD,CAAC"}
