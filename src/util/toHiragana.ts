@@ -1,5 +1,6 @@
 import "dotenv/config";
 import axios, { AxiosResponse } from "axios";
+import { isJapanese } from "./isJapanese";
 
 type hiraganaResponse = {
   converted: string;
@@ -15,12 +16,14 @@ export const toHiragana = async (
   inputWord: string
 ): Promise<AxiosResponse<hiraganaResponse> | undefined> => {
   try {
-    const result = await axios.post(BASE_URL, {
-      app_id: APP_ID,
-      sentence: inputWord,
-      output_type: OUTPUT_STYLE,
-    });
-    return result;
+    if (isJapanese(inputWord)) {
+      const result = await axios.post(BASE_URL, {
+        app_id: APP_ID,
+        sentence: inputWord,
+        output_type: OUTPUT_STYLE,
+      });
+      return result;
+    }
   } catch (error) {
     console.error(error);
   }

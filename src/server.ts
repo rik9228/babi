@@ -44,10 +44,14 @@ async function handleEvent(event: WebhookEvent): Promise<any> {
   if (res) {
     const { converted } = res.data;
     const replayText = translate(converted);
-
     return client.replyMessage(event.replyToken, {
       type: "text",
       text: replayText,
+    });
+  } else {
+    return client.replyMessage(event.replyToken, {
+      type: "text",
+      text: "送信するメッセージには漢字・ひらがな・カタカナ以外の文字を含まないでください",
     });
   }
 }
