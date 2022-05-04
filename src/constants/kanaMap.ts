@@ -1,4 +1,4 @@
-const kanaMap = {
+export const kanaMap: { [key: string]: string | null } = {
   // あ
   あ: "ば",
   い: "び",
@@ -96,5 +96,3 @@ const kanaMap = {
   ゅ: "ぶ",
   ょ: "ぼ",
 };
-
-module.exports = kanaMap;

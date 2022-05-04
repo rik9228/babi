@@ -1,8 +1,8 @@
-const kanaMap = require("../constants/kanaMap");
+import { kanaMap } from "../constants/kanaMap";
 
-const translate = (sentence) => {
-  let translated = [];
-  let prev = null;
+export const translate = (sentence: string) => {
+  let translated: [string?, null?] = [];
+  let prev: string | null = null;
 
   for (const i in [...sentence, null, null]) {
     // 2文字セットで判定する
@@ -46,5 +46,3 @@ const translate = (sentence) => {
   }
   return translated.join("");
 };
-
-module.exports = translate;
