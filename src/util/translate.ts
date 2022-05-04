@@ -1,4 +1,4 @@
-import { kanaMap } from "../constants/kanaMap";
+import { kanaMap } from "../constant/kanaMap";
 
 export const translate = (sentence: string) => {
   let translated: [string?, null?] = [];
